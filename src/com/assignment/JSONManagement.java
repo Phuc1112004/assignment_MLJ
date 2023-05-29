@@ -1,3 +1,6 @@
+package com.assignment;
+
+import com.assignment.Address;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 

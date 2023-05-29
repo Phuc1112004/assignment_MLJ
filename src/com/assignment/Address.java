@@ -1,3 +1,5 @@
+package com.assignment;
+
 public class Address {
     String streetAddress;
     String city;
@@ -46,7 +48,7 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address{" +
+        return "com.assignment.Address{" +
                 "streetAddress='" + streetAddress + '\'' +
                 ", city='" + city + '\'' +
                 ", state='" + state + '\'' +

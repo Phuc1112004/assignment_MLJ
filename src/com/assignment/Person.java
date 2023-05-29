@@ -1,3 +1,7 @@
+package com.assignment;
+
+import com.assignment.Address;
+
 public class Person {
     int id;
     String firstName;
@@ -93,7 +97,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "com.assignment.Person{" +
                 "id=" + id +
                 ", \nfirstName='" + firstName + '\'' +
                 ", \nlastName='" + lastName + '\'' +
