@@ -7,9 +7,12 @@ public class Main {
         try {
             JSONManagement jsonManagement = new JSONManagement();
 
-            jsonManagement.readJSONPerson();
+//            jsonManagement.readJSONPerson();
 
 //            jsonManagement.readJSONFromAPI();
+
+            jsonManagement.readJSONFromApijsonplaceholder();
+
         }catch (Exception e) {
             System.out.println(e.getMessage());
         }
